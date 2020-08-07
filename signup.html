@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wesite:An Idea</title>
+    <style>
+         body{
+            font-family: Tahoma,Geneva,sans-serif;
+            color:black;
+            background: url(signup2.jpg);
+            background-size:cover;
+            
+        }
+        .signup{
+            backface-visibility: rgba(44,62,80,0.7);
+            padding: 40px;
+            width:250px;
+            margin: auto;
+            
+            margin-top: 80px;
+            height: 400px;
+            margin-left: 180x;
+        }
+        form{
+            width:240px;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            padding: 10px;}
+        input
+        {
+            width:240px;
+            text-align:center;
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid black;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 200px;
+            padding: 10px 0;
+            transition: 0.3s;
+            outline:none;
+            color:white;
+                
+    
+        }input[type=button]{
+         border:none;
+            width:190px;
+            background: white;
+            color:black;
+            font-size: 16px;
+            line-height: 25px;
+            padding: 10px 0px;
+            font-size: 16px;
+            line-height:25px;
+            border-radius:15px;
+            cursor:pointer;
+            
+            
+        }
+        input[type=button]:hover{
+            color:lightcyan;
+            background-color: coral;
+        }
+        .msg{
+            visibility: hidden;
+            color: yellow;
+        }
+        .SignUp:onclick + .msg{
+            visibility: visible;
+        }
+         .navbar{
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
+        }
+        .button1,.button2,.button3{
+            height:auto;
+            width: auto;
+            border: none;
+            
+            
+        }
+        .button1:hover{
+            box-shadow: 10px 10px;
+            cursor: pointer;
+        }
+        .button2:hover{
+            box-shadow: 10px 10px;
+            cursor: pointer;
+        }
+        .button3:hover{
+            box-shadow: 10px 10px;
+        }
+        .sidepanel{
+         padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  
+ 
+  transition: 0.3s;
+            cursor: pointer;
+            
+        }
+        .sidepanel:hover{
+            box-shadow: 10px 10px;
+            
+        }
+        .login:hover{
+            box-shadow: 10px 10px;
+            cursor: pointer;
+        }
+        
+    
+    
+    </style>
+    
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <button class="sidepanel"><img src =threelines.png width="35px" height="25px" padding="10px"></button>
+        <button class="button1" type="button"><a  style="color: black" href="code.html" >Home</a></button>
+            <button class="button2" type="button">About Us</button>
+            <button class="button3" type="button">Contact Us</button>
+            <button class="login" type="button"><a  style="color:black" href="login.html">Sign Up</a></button>
+    
+        
+        
+        </div>
+    <div class="signup">
+        <form>
+        <h2 style="color: white">Sign Up</h2>
+            <input type="text"  name="first name" placeholder="First Name"><br><br>
+            <input type="text"  name="last name" placeholder="Last Name"><br><br>
+            <input type="Email"  name="Email" placeholder="Email"><br><br>
+            <input type="password"  name="Password" placeholder="Password"><br><br>
+            <input type="pasword"  name="Confirm Password" placeholder="Confirm Password"><br><br>
+            <input type="button" value="Sign Up" class="SignUp"><br><br>
+            <div class="msg">
+            Congratulations you have sign up successfully!!!
+            </div>
+            
+        
+        
+        
+        </form>
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+</html>
